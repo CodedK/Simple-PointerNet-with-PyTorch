@@ -17,7 +17,7 @@ import argparse
 from tqdm import tqdm
 
 from PointerNet import PointerNet
-from Data_Generator import TSPDataset
+from data_generator import TSPDataset
 
 parser = argparse.ArgumentParser(description="Pytorch implementation of Pointer-Net")
 
